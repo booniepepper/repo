@@ -1,5 +1,9 @@
 name: main
-on: [push, workflow_dispatch]
+
+on:
+  push:
+  workflow_dispatch:
+
 jobs:
   pb:
     runs-on: ubuntu-latest
